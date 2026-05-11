@@ -1,7 +1,1 @@
-{
-  "pack": {
-    "description": "§cEndtless §7- 45 itens customizados (6 packs)",
-    "min_format": 46,
-    "max_format": 100
-  }
-}
+{"pack": {"description": "Endtless - 45 itens customizados", "pack_format": 46, "supported_formats": [46, 99]}}
