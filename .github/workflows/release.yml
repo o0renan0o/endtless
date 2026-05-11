@@ -15,12 +15,25 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Rebuild EndtlessPack.zip from source
+        run: |
+          rm -f EndtlessPack.zip
+          cd 1_ResourcePack
+          zip -rq ../EndtlessPack.zip pack.mcmeta assets
+          cd ..
+
+      - name: Rebuild EndtlessDatapack.zip from source
+        run: |
+          rm -f EndtlessDatapack.zip
+          cd 2_Datapack
+          zip -rq ../EndtlessDatapack.zip pack.mcmeta data
+          cd ..
+
       - name: Compute SHA1 of EndtlessPack.zip
         id: sha1
         run: |
           SHA=$(sha1sum EndtlessPack.zip | awk '{print $1}')
           echo "sha=$SHA" >> $GITHUB_OUTPUT
-          echo "SHA1=$SHA"
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
@@ -35,7 +48,7 @@ jobs:
 
             ## Como usar
 
-            **Resource Pack** (no server.properties do servidor):
+            **Resource Pack** (no server.properties):
             ```properties
             resource-pack=https://github.com/o0renan0o/endtless/releases/download/${{ github.ref_name }}/EndtlessPack.zip
             resource-pack-sha1=${{ steps.sha1.outputs.sha }}
@@ -43,33 +56,9 @@ jobs:
             resource-pack-prompt=Aceite o pack para ver os itens exclusivos do Endtless!
             ```
 
-            **Datapack:** upload do `EndtlessDatapack.zip` em `world/datapacks/` do servidor (sem extrair).
-
-            **Reload no console:**
-            ```
-            reload
-            datapack enable "file/EndtlessDatapack.zip"
-            ```
+            **Datapack:** upload do `EndtlessDatapack.zip` em `world/datapacks/` (sem extrair).
 
             **Testar no jogo:** `/trigger endtless_shop`
-
-            ## Conteudo
-
-            6 colecoes premium integradas (45 itens totais):
-            - What Collection (5 ferramentas)
-            - Carnivoret Weapon Set V1 (18 itens, armaduras no corpo, bow animado)
-            - Asura Collection (sword, wings com Speed+Regen, 5 moedas)
-            - Demon Train (locomotiva + vagao com fumaca animada, sistema veicular)
-            - Toffy Zelda Pack (Master Sword, Hylian Shield, Link armor, Rupee)
-            - Barrel Knight (set cavaleiro-campones com visual 1a/3a pessoa)
-
-            Mais features:
-            - 29 receitas de craft
-            - 6 loot tables com drops aleatorios
-            - 77 functions com GUI clicavel
-            - Sistema de efeitos automaticos (Asura Wings boost, etc)
-            - Demon Train veiculo funcional
-            - Documentacao completa no README.md
           files: |
             EndtlessPack.zip
             EndtlessDatapack.zip
