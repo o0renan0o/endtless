@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "L L",
+    "E E"
+  ],
+  "key": {
+    "L": "minecraft:leather",
+    "E": "minecraft:emerald"
+  },
+  "result": {
+    "id": "minecraft:leather_boots",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "endtless:toffy_link_boots",
+      "minecraft:item_name": {
+        "text": "Links Boots",
+        "color": "#5acb5a",
+        "italic": false,
+        "bold": true
+      },
+      "minecraft:lore": [
+        {
+          "text": "Botas para correr por Hyrule.",
+          "color": "#888888",
+          "italic": false
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "\u2605 Zelda",
+          "color": "#444444",
+          "italic": false
+        }
+      ],
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:protection": 3,
+          "minecraft:feather_falling": 4,
+          "minecraft:unbreaking": 3,
+          "minecraft:mending": 1
+        }
+      },
+      "minecraft:equippable": {
+        "slot": "feet",
+        "asset_id": "endtless:toffy_link"
+      },
+      "minecraft:dyed_color": 4694835
+    }
+  }
+}

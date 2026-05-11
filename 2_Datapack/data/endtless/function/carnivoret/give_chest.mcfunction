@@ -1,0 +1,2 @@
+# Da Carnivoret Chest (ender_chest com modelo customizado)
+give @s ender_chest[item_model="endtless:carnivoret_chest",item_name='{"text":"Carnivoret Chest","color":"#8b0000","italic":false,"bold":true}',lore=['{"text":"Bau decorativo. Quando colocado funciona como ender chest.","color":"#888888","italic":false}','{"text":""}','{"text":"★ Carnivoret","color":"#444444","italic":false}'],enchantments={levels:{"minecraft:unbreaking":3}}]

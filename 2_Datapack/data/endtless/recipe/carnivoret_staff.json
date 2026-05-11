@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    "DXD",
+    " B "
+  ],
+  "key": {
+    "N": "minecraft:nether_star",
+    "X": "minecraft:iron_sword",
+    "D": "minecraft:diamond_block",
+    "B": "minecraft:blaze_rod"
+  },
+  "result": {
+    "id": "minecraft:iron_sword",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "endtless:carnivoret_staff",
+      "minecraft:item_name": {
+        "text": "Carnivoret Staff",
+        "color": "#8b0000",
+        "italic": false,
+        "bold": true
+      },
+      "minecraft:lore": [
+        {
+          "text": "Canaliza energia das sombras.",
+          "color": "#888888",
+          "italic": false
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "\u2605 Carnivoret",
+          "color": "#444444",
+          "italic": false
+        }
+      ],
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:sharpness": 3,
+          "minecraft:knockback": 1,
+          "minecraft:fire_aspect": 1,
+          "minecraft:unbreaking": 3
+        }
+      }
+    }
+  }
+}

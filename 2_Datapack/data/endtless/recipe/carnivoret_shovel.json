@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    "NXN",
+    " D "
+  ],
+  "key": {
+    "N": "minecraft:netherite_ingot",
+    "X": "minecraft:netherite_shovel",
+    "D": "minecraft:diamond_block"
+  },
+  "result": {
+    "id": "minecraft:netherite_shovel",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "endtless:carnivoret_shovel",
+      "minecraft:item_name": {
+        "text": "Carnivoret Shovel",
+        "color": "#8b0000",
+        "italic": false,
+        "bold": true
+      },
+      "minecraft:lore": [
+        {
+          "text": "Cava com elegancia.",
+          "color": "#888888",
+          "italic": false
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "\u2605 Carnivoret",
+          "color": "#444444",
+          "italic": false
+        }
+      ],
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:efficiency": 5,
+          "minecraft:unbreaking": 3,
+          "minecraft:mending": 1
+        }
+      }
+    }
+  }
+}

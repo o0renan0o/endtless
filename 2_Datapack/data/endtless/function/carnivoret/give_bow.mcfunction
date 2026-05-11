@@ -1,0 +1,2 @@
+# Da Carnivoret Bow
+give @s bow[item_model="endtless:carnivoret_bow",item_name='{"text":"Carnivoret Bow","color":"#8b0000","italic":false,"bold":true}',lore=['{"text":"Flechas que nao falham.","color":"#888888","italic":false}','{"text":""}','{"text":"★ Carnivoret","color":"#444444","italic":false}'],enchantments={levels:{"minecraft:power":5,"minecraft:punch":2,"minecraft:flame":1,"minecraft:infinity":1,"minecraft:unbreaking":3}}]

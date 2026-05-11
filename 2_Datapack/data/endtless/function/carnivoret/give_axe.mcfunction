@@ -1,0 +1,2 @@
+# Da Carnivoret Axe
+give @s netherite_axe[item_model="endtless:carnivoret_axe",item_name='{"text":"Carnivoret Axe","color":"#8b0000","italic":false,"bold":true}',lore=['{"text":"Talhe inimigos como troncos.","color":"#888888","italic":false}','{"text":""}','{"text":"★ Carnivoret","color":"#444444","italic":false}'],enchantments={levels:{"minecraft:sharpness":4,"minecraft:fire_aspect":1,"minecraft:efficiency":3,"minecraft:unbreaking":3,"minecraft:mending":1}}]

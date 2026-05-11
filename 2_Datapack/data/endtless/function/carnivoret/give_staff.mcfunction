@@ -1,0 +1,2 @@
+# Da Carnivoret Staff
+give @s iron_sword[item_model="endtless:carnivoret_staff",item_name='{"text":"Carnivoret Staff","color":"#8b0000","italic":false,"bold":true}',lore=['{"text":"Canaliza energia das sombras.","color":"#888888","italic":false}','{"text":""}','{"text":"★ Carnivoret","color":"#444444","italic":false}'],enchantments={levels:{"minecraft:sharpness":3,"minecraft:knockback":1,"minecraft:fire_aspect":1,"minecraft:unbreaking":3}}]

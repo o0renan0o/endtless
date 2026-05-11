@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    " S ",
+    " D "
+  ],
+  "key": {
+    "N": "minecraft:netherite_ingot",
+    "S": "minecraft:netherite_shovel",
+    "D": "minecraft:diamond_block"
+  },
+  "result": {
+    "id": "minecraft:netherite_shovel",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "endtless:what_shovel",
+      "minecraft:item_name": {"text":"What Shovel","color":"#ff4655","italic":false},
+      "minecraft:lore": [
+        {"text":"Cava tuneis em segundos.","color":"#888888","italic":false},
+        {"text":""},
+        {"text":"★ Item Exclusivo","color":"#444444","italic":false}
+      ],
+      "minecraft:enchantments": {"levels":{"minecraft:unbreaking":3,"minecraft:efficiency":4}}
+    }
+  }
+}

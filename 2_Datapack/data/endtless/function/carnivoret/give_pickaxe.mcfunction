@@ -1,0 +1,2 @@
+# Da Carnivoret Pickaxe
+give @s netherite_pickaxe[item_model="endtless:carnivoret_pickaxe",item_name='{"text":"Carnivoret Pickaxe","color":"#8b0000","italic":false,"bold":true}',lore=['{"text":"Mina como nenhuma outra.","color":"#888888","italic":false}','{"text":""}','{"text":"★ Carnivoret","color":"#444444","italic":false}'],enchantments={levels:{"minecraft:efficiency":5,"minecraft:fortune":3,"minecraft:unbreaking":3,"minecraft:mending":1}}]

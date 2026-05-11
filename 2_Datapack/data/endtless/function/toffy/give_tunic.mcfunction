@@ -1,0 +1,2 @@
+# Da Links Tunic
+give @s leather_chestplate[item_model="endtless:toffy_link_tunic",item_name='{"text":"Links Tunic","color":"#5acb5a","italic":false,"bold":true}',lore=['{"text":"Tunica verde de Hyrule.","color":"#888888","italic":false}','{"text":""}','{"text":"★ Zelda","color":"#444444","italic":false}'],enchantments={levels:{"minecraft:unbreaking":3}},equippable={slot:"chest",asset_id:"endtless:toffy_link"},dyed_color=4694835]

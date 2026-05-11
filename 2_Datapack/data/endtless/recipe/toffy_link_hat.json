@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E E",
+    "ELE",
+    "LLL"
+  ],
+  "key": {
+    "E": "minecraft:emerald",
+    "L": "minecraft:green_dye"
+  },
+  "result": {
+    "id": "minecraft:leather_helmet",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "endtless:toffy_link_hat",
+      "minecraft:item_name": {
+        "text": "Links Hat",
+        "color": "#5acb5a",
+        "italic": false,
+        "bold": true
+      },
+      "minecraft:lore": [
+        {
+          "text": "A icona verde do heroi.",
+          "color": "#888888",
+          "italic": false
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "\u2605 Zelda",
+          "color": "#444444",
+          "italic": false
+        }
+      ],
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:protection": 3,
+          "minecraft:unbreaking": 3
+        }
+      },
+      "minecraft:equippable": {
+        "slot": "head"
+      },
+      "minecraft:dyed_color": 4694835
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    " P ",
+    " D "
+  ],
+  "key": {
+    "N": "minecraft:netherite_ingot",
+    "P": "minecraft:netherite_pickaxe",
+    "D": "minecraft:diamond_block"
+  },
+  "result": {
+    "id": "minecraft:netherite_pickaxe",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "endtless:what_pickaxe",
+      "minecraft:item_name": {"text":"What Pickaxe","color":"#ff4655","italic":false},
+      "minecraft:lore": [
+        {"text":"Quebra rocha como se fosse manteiga.","color":"#888888","italic":false},
+        {"text":""},
+        {"text":"★ Item Exclusivo","color":"#444444","italic":false}
+      ],
+      "minecraft:enchantments": {"levels":{"minecraft:unbreaking":3,"minecraft:efficiency":4}}
+    }
+  }
+}

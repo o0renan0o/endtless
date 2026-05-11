@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    "DSD",
+    " B "
+  ],
+  "key": {
+    "N": "minecraft:nether_star",
+    "S": "minecraft:netherite_sword",
+    "D": "minecraft:diamond_block",
+    "B": "minecraft:blaze_rod"
+  },
+  "result": {
+    "id": "minecraft:netherite_sword",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "endtless:what_sword",
+      "minecraft:item_name": {"text":"What Sword","color":"#ff4655","italic":false},
+      "minecraft:lore": [
+        {"text":"Forjada nos cofres do Endtless.","color":"#888888","italic":false},
+        {"text":""},
+        {"text":"★ Item Exclusivo","color":"#444444","italic":false}
+      ],
+      "minecraft:enchantments": {"levels":{"minecraft:unbreaking":3}}
+    }
+  }
+}

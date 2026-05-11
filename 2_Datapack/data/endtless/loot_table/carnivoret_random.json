@@ -1,0 +1,392 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "endtless:carnivoret_sword",
+                "minecraft:item_name": {
+                  "text": "Carnivoret Sword",
+                  "color": "#8b0000",
+                  "italic": false,
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Achada em ruinas malditas.",
+                    "color": "#888888",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "\u2605 Carnivoret",
+                    "color": "#444444",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 5,
+                    "minecraft:fire_aspect": 2,
+                    "minecraft:unbreaking": 3
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_axe",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "endtless:carnivoret_axe",
+                "minecraft:item_name": {
+                  "text": "Carnivoret Axe",
+                  "color": "#8b0000",
+                  "italic": false,
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Drop raro.",
+                    "color": "#888888",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "\u2605 Carnivoret",
+                    "color": "#444444",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 4,
+                    "minecraft:unbreaking": 3
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_pickaxe",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "endtless:carnivoret_pickaxe",
+                "minecraft:item_name": {
+                  "text": "Carnivoret Pickaxe",
+                  "color": "#8b0000",
+                  "italic": false,
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Drop raro.",
+                    "color": "#888888",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "\u2605 Carnivoret",
+                    "color": "#444444",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:efficiency": 5,
+                    "minecraft:fortune": 3,
+                    "minecraft:unbreaking": 3
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "endtless:carnivoret_bow",
+                "minecraft:item_name": {
+                  "text": "Carnivoret Bow",
+                  "color": "#8b0000",
+                  "italic": false,
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Arco lendario.",
+                    "color": "#888888",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "\u2605 Carnivoret",
+                    "color": "#444444",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:power": 5,
+                    "minecraft:flame": 1,
+                    "minecraft:unbreaking": 3
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "endtless:carnivoret_shield",
+                "minecraft:item_name": {
+                  "text": "Carnivoret Shield",
+                  "color": "#8b0000",
+                  "italic": false,
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Escudo de boss.",
+                    "color": "#888888",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "\u2605 Carnivoret",
+                    "color": "#444444",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 5
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "endtless:carnivoret_chestplate",
+                "minecraft:item_name": {
+                  "text": "Carnivoret Chestplate",
+                  "color": "#8b0000",
+                  "italic": false,
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Peitoral de elite.",
+                    "color": "#888888",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "\u2605 Carnivoret",
+                    "color": "#444444",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 4,
+                    "minecraft:unbreaking": 3
+                  }
+                },
+                "minecraft:equippable": {
+                  "slot": "chest",
+                  "asset_id": "endtless:carnivoret"
+                },
+                "minecraft:dyed_color": 6583418
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "endtless:carnivoret_leggings",
+                "minecraft:item_name": {
+                  "text": "Carnivoret Leggings",
+                  "color": "#8b0000",
+                  "italic": false,
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Calcas de elite.",
+                    "color": "#888888",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "\u2605 Carnivoret",
+                    "color": "#444444",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 4,
+                    "minecraft:unbreaking": 3
+                  }
+                },
+                "minecraft:equippable": {
+                  "slot": "legs",
+                  "asset_id": "endtless:carnivoret"
+                },
+                "minecraft:dyed_color": 6583418
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "endtless:carnivoret_boots",
+                "minecraft:item_name": {
+                  "text": "Carnivoret Boots",
+                  "color": "#8b0000",
+                  "italic": false,
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Botas de elite.",
+                    "color": "#888888",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "\u2605 Carnivoret",
+                    "color": "#444444",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 4,
+                    "minecraft:feather_falling": 4,
+                    "minecraft:unbreaking": 3
+                  }
+                },
+                "minecraft:equippable": {
+                  "slot": "feet",
+                  "asset_id": "endtless:carnivoret"
+                },
+                "minecraft:dyed_color": 6583418
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "endtless:carnivoret_hat",
+                "minecraft:item_name": {
+                  "text": "Carnivoret Hat",
+                  "color": "#8b0000",
+                  "italic": false,
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Coroa de elite.",
+                    "color": "#888888",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "\u2605 Carnivoret",
+                    "color": "#444444",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 4,
+                    "minecraft:unbreaking": 3
+                  }
+                },
+                "minecraft:equippable": {
+                  "slot": "head"
+                },
+                "minecraft:dyed_color": 6583418
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

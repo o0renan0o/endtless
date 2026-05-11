@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "thirdperson_lefthand",
+          "thirdperson_righthand",
+          "head"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "cosmetics/barrel_thirdperson"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "cosmetics/barrel"
+    }
+  }
+}

@@ -1,0 +1,2 @@
+# Da Carnivoret Fishing Rod
+give @s fishing_rod[item_model="endtless:carnivoret_fishing_rod",item_name='{"text":"Carnivoret Fishing Rod","color":"#8b0000","italic":false,"bold":true}',lore=['{"text":"Pesca o que mais ninguem pega.","color":"#888888","italic":false}','{"text":""}','{"text":"★ Carnivoret","color":"#444444","italic":false}'],enchantments={levels:{"minecraft:luck_of_the_sea":3,"minecraft:lure":3,"minecraft:unbreaking":3}}]

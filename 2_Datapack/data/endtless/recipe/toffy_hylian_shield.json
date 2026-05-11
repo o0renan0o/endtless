@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "LSL",
+    " D "
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "L": "minecraft:lapis_block",
+    "S": "minecraft:shield",
+    "D": "minecraft:diamond_block"
+  },
+  "result": {
+    "id": "minecraft:shield",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "endtless:toffy_hylian_shield",
+      "minecraft:item_name": {
+        "text": "Hylian Shield",
+        "color": "#3366ff",
+        "italic": false,
+        "bold": true
+      },
+      "minecraft:lore": [
+        {
+          "text": "O escudo dos Hylianos.",
+          "color": "#888888",
+          "italic": false
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "\u2605 Zelda",
+          "color": "#444444",
+          "italic": false
+        }
+      ],
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:unbreaking": 5
+        }
+      }
+    }
+  }
+}

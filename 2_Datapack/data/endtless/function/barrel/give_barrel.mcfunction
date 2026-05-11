@@ -1,0 +1,2 @@
+# Da Barrel
+give @s leather_chestplate[item_model="endtless:barrel_chestplate",item_name='{"text":"Barrel","color":"#c9a26a","italic":false,"bold":true}',lore=['{"text":"O peitoral do humilde cavaleiro.","color":"#888888","italic":false}','{"text":""}','{"text":"★ Barrel Knight","color":"#444444","italic":false}'],enchantments={levels:{"minecraft:protection":2,"minecraft:unbreaking":3}},equippable={slot:"chest"}]

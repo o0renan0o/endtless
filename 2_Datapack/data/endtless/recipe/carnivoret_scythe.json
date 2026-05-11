@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    "NXN",
+    " D "
+  ],
+  "key": {
+    "N": "minecraft:netherite_ingot",
+    "X": "minecraft:iron_hoe",
+    "D": "minecraft:diamond_block"
+  },
+  "result": {
+    "id": "minecraft:iron_hoe",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "endtless:carnivoret_scythe",
+      "minecraft:item_name": {
+        "text": "Carnivoret Scythe",
+        "color": "#8b0000",
+        "italic": false,
+        "bold": true
+      },
+      "minecraft:lore": [
+        {
+          "text": "A foice da colheita sombria.",
+          "color": "#888888",
+          "italic": false
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "\u2605 Carnivoret",
+          "color": "#444444",
+          "italic": false
+        }
+      ],
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:sharpness": 4,
+          "minecraft:sweeping_edge": 3,
+          "minecraft:looting": 2,
+          "minecraft:unbreaking": 3
+        }
+      }
+    }
+  }
+}

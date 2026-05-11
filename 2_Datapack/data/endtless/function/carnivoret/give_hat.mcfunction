@@ -1,0 +1,2 @@
+# Da Carnivoret Hat
+give @s leather_helmet[item_model="endtless:carnivoret_hat",item_name='{"text":"Carnivoret Hat","color":"#8b0000","italic":false,"bold":true}',lore=['{"text":"Coroa do cacador.","color":"#888888","italic":false}','{"text":""}','{"text":"★ Carnivoret","color":"#444444","italic":false}'],enchantments={levels:{"minecraft:protection":4,"minecraft:unbreaking":3,"minecraft:mending":1}},equippable={slot:"head"},dyed_color=6583418]

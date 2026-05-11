@@ -1,0 +1,2 @@
+# Da Carnivoret Boots
+give @s leather_boots[item_model="endtless:carnivoret_boots",item_name='{"text":"Carnivoret Boots","color":"#8b0000","italic":false,"bold":true}',lore=['{"text":"Botas lendarias.","color":"#888888","italic":false}','{"text":""}','{"text":"★ Carnivoret","color":"#444444","italic":false}'],enchantments={levels:{"minecraft:protection":4,"minecraft:feather_falling":4,"minecraft:unbreaking":3,"minecraft:mending":1}},equippable={slot:"feet",asset_id:"endtless:carnivoret"},dyed_color=6583418]

@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    " E ",
+    " D "
+  ],
+  "key": {
+    "D": "minecraft:diamond",
+    "E": "minecraft:emerald"
+  },
+  "result": {
+    "id": "minecraft:emerald",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "endtless:toffy_rupee",
+      "minecraft:item_name": {
+        "text": "Rupee",
+        "color": "#5acb5a",
+        "italic": false,
+        "bold": true
+      },
+      "minecraft:lore": [
+        {
+          "text": "Moeda magica de Hyrule.",
+          "color": "#888888",
+          "italic": false
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "\u2605 Zelda",
+          "color": "#444444",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

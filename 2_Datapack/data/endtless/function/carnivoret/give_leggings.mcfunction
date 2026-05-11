@@ -1,0 +1,2 @@
+# Da Carnivoret Leggings
+give @s leather_leggings[item_model="endtless:carnivoret_leggings",item_name='{"text":"Carnivoret Leggings","color":"#8b0000","italic":false,"bold":true}',lore=['{"text":"Calcas lendarias.","color":"#888888","italic":false}','{"text":""}','{"text":"★ Carnivoret","color":"#444444","italic":false}'],enchantments={levels:{"minecraft:protection":4,"minecraft:unbreaking":3,"minecraft:mending":1}},equippable={slot:"legs",asset_id:"endtless:carnivoret"},dyed_color=6583418]

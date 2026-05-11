@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NN ",
+    " H ",
+    " D "
+  ],
+  "key": {
+    "N": "minecraft:netherite_ingot",
+    "H": "minecraft:netherite_hoe",
+    "D": "minecraft:diamond_block"
+  },
+  "result": {
+    "id": "minecraft:netherite_hoe",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "endtless:what_hoe",
+      "minecraft:item_name": {"text":"What Hoe","color":"#ff4655","italic":false},
+      "minecraft:lore": [
+        {"text":"A roca mais elegante do servidor.","color":"#888888","italic":false},
+        {"text":""},
+        {"text":"★ Item Exclusivo","color":"#444444","italic":false}
+      ],
+      "minecraft:enchantments": {"levels":{"minecraft:unbreaking":3}}
+    }
+  }
+}

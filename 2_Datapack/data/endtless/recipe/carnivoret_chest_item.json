@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " L ",
+    " X ",
+    " L "
+  ],
+  "key": {
+    "L": "minecraft:netherite_ingot",
+    "X": "minecraft:ender_chest"
+  },
+  "result": {
+    "id": "minecraft:ender_chest",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "endtless:carnivoret_chest",
+      "minecraft:item_name": {
+        "text": "Carnivoret Chest",
+        "color": "#8b0000",
+        "italic": false,
+        "bold": true
+      },
+      "minecraft:lore": [
+        {
+          "text": "Bau decorativo. Funcional ao colocar.",
+          "color": "#888888",
+          "italic": false
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "\u2605 Carnivoret",
+          "color": "#444444",
+          "italic": false
+        }
+      ],
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:unbreaking": 3
+        }
+      }
+    }
+  }
+}

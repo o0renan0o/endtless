@@ -1,0 +1,2 @@
+# Da Carnivoret Chestplate
+give @s leather_chestplate[item_model="endtless:carnivoret_chestplate",item_name='{"text":"Carnivoret Chestplate","color":"#8b0000","italic":false,"bold":true}',lore=['{"text":"Peitoral lendario.","color":"#888888","italic":false}','{"text":""}','{"text":"★ Carnivoret","color":"#444444","italic":false}'],enchantments={levels:{"minecraft:protection":4,"minecraft:unbreaking":3,"minecraft:mending":1}},equippable={slot:"chest",asset_id:"endtless:carnivoret"},dyed_color=6583418]

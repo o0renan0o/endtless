@@ -1,0 +1,2 @@
+# Da Links Pants
+give @s leather_leggings[item_model="endtless:toffy_link_pants",item_name='{"text":"Links Pants","color":"#5acb5a","italic":false,"bold":true}',lore=['{"text":"Calcas de aventureiro.","color":"#888888","italic":false}','{"text":""}','{"text":"★ Zelda","color":"#444444","italic":false}'],enchantments={levels:{"minecraft:unbreaking":3}},equippable={slot:"legs",asset_id:"endtless:toffy_link"},dyed_color=4694835]

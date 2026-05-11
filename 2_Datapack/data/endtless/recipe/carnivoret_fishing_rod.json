@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " SR",
+    "SCS",
+    "R S"
+  ],
+  "key": {
+    "S": "minecraft:string",
+    "R": "minecraft:fishing_rod",
+    "C": "minecraft:diamond"
+  },
+  "result": {
+    "id": "minecraft:fishing_rod",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "endtless:carnivoret_fishing_rod",
+      "minecraft:item_name": {
+        "text": "Carnivoret Fishing Rod",
+        "color": "#8b0000",
+        "italic": false,
+        "bold": true
+      },
+      "minecraft:lore": [
+        {
+          "text": "Pesca o que mais ninguem pega.",
+          "color": "#888888",
+          "italic": false
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "\u2605 Carnivoret",
+          "color": "#444444",
+          "italic": false
+        }
+      ],
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:luck_of_the_sea": 3,
+          "minecraft:lure": 3,
+          "minecraft:unbreaking": 3
+        }
+      }
+    }
+  }
+}

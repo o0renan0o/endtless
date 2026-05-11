@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "E E",
+    "E E"
+  ],
+  "key": {
+    "E": "minecraft:emerald_block",
+    "L": "minecraft:leather"
+  },
+  "result": {
+    "id": "minecraft:leather_leggings",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "endtless:carnivoret_leggings",
+      "minecraft:item_name": {
+        "text": "Carnivoret Leggings",
+        "color": "#8b0000",
+        "italic": false,
+        "bold": true
+      },
+      "minecraft:lore": [
+        {
+          "text": "Calcas lendarias.",
+          "color": "#888888",
+          "italic": false
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "\u2605 Carnivoret",
+          "color": "#444444",
+          "italic": false
+        }
+      ],
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:protection": 4,
+          "minecraft:unbreaking": 3,
+          "minecraft:mending": 1
+        }
+      },
+      "minecraft:equippable": {
+        "slot": "legs",
+        "asset_id": "endtless:carnivoret"
+      },
+      "minecraft:dyed_color": 6583418
+    }
+  }
+}

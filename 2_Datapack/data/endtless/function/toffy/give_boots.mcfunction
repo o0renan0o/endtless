@@ -1,0 +1,2 @@
+# Da Links Boots
+give @s leather_boots[item_model="endtless:toffy_link_boots",item_name='{"text":"Links Boots","color":"#5acb5a","italic":false,"bold":true}',lore=['{"text":"Botas para correr por Hyrule.","color":"#888888","italic":false}','{"text":""}','{"text":"★ Zelda","color":"#444444","italic":false}'],enchantments={levels:{"minecraft:unbreaking":3}},equippable={slot:"feet",asset_id:"endtless:toffy_link"},dyed_color=4694835]

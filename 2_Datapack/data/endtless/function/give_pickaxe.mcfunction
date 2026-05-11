@@ -1,0 +1,2 @@
+# Da uma What Pickaxe ao executor
+give @s netherite_pickaxe[item_model="endtless:what_pickaxe",item_name='{"text":"What Pickaxe","color":"#ff4655","italic":false}',lore=['{"text":"Quebra rocha como se fosse manteiga.","color":"#888888","italic":false}','{"text":""}','{"text":"★ Item Cosmetico - VIP","color":"#444444","italic":false}'],enchantments={levels:{"minecraft:unbreaking":3,"minecraft:efficiency":4}}]

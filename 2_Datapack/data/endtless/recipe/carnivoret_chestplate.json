@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E E",
+    "ELE",
+    "LLL"
+  ],
+  "key": {
+    "E": "minecraft:emerald_block",
+    "L": "minecraft:leather"
+  },
+  "result": {
+    "id": "minecraft:leather_chestplate",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "endtless:carnivoret_chestplate",
+      "minecraft:item_name": {
+        "text": "Carnivoret Chestplate",
+        "color": "#8b0000",
+        "italic": false,
+        "bold": true
+      },
+      "minecraft:lore": [
+        {
+          "text": "Peitoral lendario.",
+          "color": "#888888",
+          "italic": false
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "\u2605 Carnivoret",
+          "color": "#444444",
+          "italic": false
+        }
+      ],
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:protection": 4,
+          "minecraft:unbreaking": 3,
+          "minecraft:mending": 1
+        }
+      },
+      "minecraft:equippable": {
+        "slot": "chest",
+        "asset_id": "endtless:carnivoret"
+      },
+      "minecraft:dyed_color": 6583418
+    }
+  }
+}

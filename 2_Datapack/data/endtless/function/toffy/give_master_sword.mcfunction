@@ -1,0 +1,2 @@
+# Da Master Sword
+give @s netherite_sword[item_model="endtless:toffy_master_sword",item_name='{"text":"Master Sword","color":"#5acb5a","italic":false,"bold":true}',lore=['{"text":"A lendaria espada do heroi escolhido.","color":"#888888","italic":false}','{"text":""}','{"text":"★ Zelda","color":"#444444","italic":false}'],enchantments={levels:{"minecraft:sharpness":5,"minecraft:unbreaking":3,"minecraft:smite":3}}]

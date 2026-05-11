@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "endtless:carnivoret"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "endtless:carnivoret"
+      }
+    ]
+  }
+}

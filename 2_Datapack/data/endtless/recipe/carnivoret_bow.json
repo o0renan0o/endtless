@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " SB",
+    "XBS",
+    "SX "
+  ],
+  "key": {
+    "S": "minecraft:string",
+    "B": "minecraft:bow",
+    "X": "minecraft:nether_star"
+  },
+  "result": {
+    "id": "minecraft:bow",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "endtless:carnivoret_bow",
+      "minecraft:item_name": {
+        "text": "Carnivoret Bow",
+        "color": "#8b0000",
+        "italic": false,
+        "bold": true
+      },
+      "minecraft:lore": [
+        {
+          "text": "Flechas que nao falham.",
+          "color": "#888888",
+          "italic": false
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "\u2605 Carnivoret",
+          "color": "#444444",
+          "italic": false
+        }
+      ],
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:power": 5,
+          "minecraft:punch": 2,
+          "minecraft:flame": 1,
+          "minecraft:infinity": 1,
+          "minecraft:unbreaking": 3
+        }
+      }
+    }
+  }
+}

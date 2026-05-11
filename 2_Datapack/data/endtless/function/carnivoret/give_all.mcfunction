@@ -1,0 +1,19 @@
+# Da o set completo Carnivoret
+function endtless:carnivoret/give_sword
+function endtless:carnivoret/give_axe
+function endtless:carnivoret/give_hammer
+function endtless:carnivoret/give_scythe
+function endtless:carnivoret/give_spear
+function endtless:carnivoret/give_staff
+function endtless:carnivoret/give_pickaxe
+function endtless:carnivoret/give_shovel
+function endtless:carnivoret/give_hoe
+function endtless:carnivoret/give_bow
+function endtless:carnivoret/give_fishing_rod
+function endtless:carnivoret/give_shield
+function endtless:carnivoret/give_hat
+function endtless:carnivoret/give_key
+function endtless:carnivoret/give_wing
+function endtless:carnivoret/give_chestplate
+function endtless:carnivoret/give_leggings
+function endtless:carnivoret/give_boots

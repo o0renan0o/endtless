@@ -1,0 +1,307 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "endtless:toffy_master_sword",
+                "minecraft:item_name": {
+                  "text": "Master Sword",
+                  "color": "#5acb5a",
+                  "italic": false,
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Achada nos pilares de Hyrule.",
+                    "color": "#888888",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "\u2605 Zelda",
+                    "color": "#444444",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:sharpness": 5,
+                    "minecraft:smite": 3,
+                    "minecraft:unbreaking": 3
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "endtless:toffy_hylian_shield",
+                "minecraft:item_name": {
+                  "text": "Hylian Shield",
+                  "color": "#3366ff",
+                  "italic": false,
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Escudo dos Hylianos.",
+                    "color": "#888888",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "\u2605 Zelda",
+                    "color": "#444444",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:unbreaking": 5
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "endtless:toffy_link_tunic",
+                "minecraft:item_name": {
+                  "text": "Links Tunic",
+                  "color": "#5acb5a",
+                  "italic": false,
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Tunica verde.",
+                    "color": "#888888",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "\u2605 Zelda",
+                    "color": "#444444",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 3,
+                    "minecraft:unbreaking": 3
+                  }
+                },
+                "minecraft:equippable": {
+                  "slot": "chest",
+                  "asset_id": "endtless:toffy_link"
+                },
+                "minecraft:dyed_color": 4694835
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "endtless:toffy_link_pants",
+                "minecraft:item_name": {
+                  "text": "Links Pants",
+                  "color": "#5acb5a",
+                  "italic": false,
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Calcas do heroi.",
+                    "color": "#888888",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "\u2605 Zelda",
+                    "color": "#444444",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 3,
+                    "minecraft:unbreaking": 3
+                  }
+                },
+                "minecraft:equippable": {
+                  "slot": "legs",
+                  "asset_id": "endtless:toffy_link"
+                },
+                "minecraft:dyed_color": 4694835
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "endtless:toffy_link_boots",
+                "minecraft:item_name": {
+                  "text": "Links Boots",
+                  "color": "#5acb5a",
+                  "italic": false,
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Botas do heroi.",
+                    "color": "#888888",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "\u2605 Zelda",
+                    "color": "#444444",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 3,
+                    "minecraft:feather_falling": 4,
+                    "minecraft:unbreaking": 3
+                  }
+                },
+                "minecraft:equippable": {
+                  "slot": "feet",
+                  "asset_id": "endtless:toffy_link"
+                },
+                "minecraft:dyed_color": 4694835
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "endtless:toffy_link_hat",
+                "minecraft:item_name": {
+                  "text": "Links Hat",
+                  "color": "#5acb5a",
+                  "italic": false,
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "O icone do heroi.",
+                    "color": "#888888",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "\u2605 Zelda",
+                    "color": "#444444",
+                    "italic": false
+                  }
+                ],
+                "minecraft:enchantments": {
+                  "levels": {
+                    "minecraft:protection": 3,
+                    "minecraft:unbreaking": 3
+                  }
+                },
+                "minecraft:equippable": {
+                  "slot": "head"
+                },
+                "minecraft:dyed_color": 4694835
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "endtless:toffy_rupee",
+                "minecraft:item_name": {
+                  "text": "Rupee",
+                  "color": "#5acb5a",
+                  "italic": false,
+                  "bold": true
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "Moeda magica.",
+                    "color": "#888888",
+                    "italic": false
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "text": "\u2605 Zelda",
+                    "color": "#444444",
+                    "italic": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

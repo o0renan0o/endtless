@@ -1,0 +1,2 @@
+# Da Carnivoret Shovel
+give @s netherite_shovel[item_model="endtless:carnivoret_shovel",item_name='{"text":"Carnivoret Shovel","color":"#8b0000","italic":false,"bold":true}',lore=['{"text":"Cava com elegancia.","color":"#888888","italic":false}','{"text":""}','{"text":"★ Carnivoret","color":"#444444","italic":false}'],enchantments={levels:{"minecraft:efficiency":5,"minecraft:unbreaking":3,"minecraft:mending":1}}]

@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "L L",
+    "LEL",
+    "LLL"
+  ],
+  "key": {
+    "L": "minecraft:leather",
+    "E": "minecraft:emerald_block"
+  },
+  "result": {
+    "id": "minecraft:leather_chestplate",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "endtless:toffy_link_tunic",
+      "minecraft:item_name": {
+        "text": "Links Tunic",
+        "color": "#5acb5a",
+        "italic": false,
+        "bold": true
+      },
+      "minecraft:lore": [
+        {
+          "text": "Tunica verde de Hyrule.",
+          "color": "#888888",
+          "italic": false
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "\u2605 Zelda",
+          "color": "#444444",
+          "italic": false
+        }
+      ],
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:protection": 3,
+          "minecraft:unbreaking": 3,
+          "minecraft:mending": 1
+        }
+      },
+      "minecraft:equippable": {
+        "slot": "chest",
+        "asset_id": "endtless:toffy_link"
+      },
+      "minecraft:dyed_color": 4694835
+    }
+  }
+}

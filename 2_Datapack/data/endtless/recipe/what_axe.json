@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NN ",
+    "NA ",
+    " D "
+  ],
+  "key": {
+    "N": "minecraft:netherite_ingot",
+    "A": "minecraft:netherite_axe",
+    "D": "minecraft:diamond_block"
+  },
+  "result": {
+    "id": "minecraft:netherite_axe",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "endtless:what_axe",
+      "minecraft:item_name": {"text":"What Axe","color":"#ff4655","italic":false},
+      "minecraft:lore": [
+        {"text":"Aco temperado nos Confins do End.","color":"#888888","italic":false},
+        {"text":""},
+        {"text":"★ Item Exclusivo","color":"#444444","italic":false}
+      ],
+      "minecraft:enchantments": {"levels":{"minecraft:unbreaking":3}}
+    }
+  }
+}

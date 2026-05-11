@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NN ",
+    "NXN",
+    " D "
+  ],
+  "key": {
+    "N": "minecraft:netherite_ingot",
+    "X": "minecraft:iron_hoe",
+    "D": "minecraft:diamond_block"
+  },
+  "result": {
+    "id": "minecraft:iron_hoe",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "endtless:carnivoret_hoe",
+      "minecraft:item_name": {
+        "text": "Carnivoret Hoe",
+        "color": "#8b0000",
+        "italic": false,
+        "bold": true
+      },
+      "minecraft:lore": [
+        {
+          "text": "Para fazendeiros estilosos.",
+          "color": "#888888",
+          "italic": false
+        },
+        {
+          "text": ""
+        },
+        {
+          "text": "\u2605 Carnivoret",
+          "color": "#444444",
+          "italic": false
+        }
+      ],
+      "minecraft:enchantments": {
+        "levels": {
+          "minecraft:unbreaking": 3
+        }
+      }
+    }
+  }
+}
