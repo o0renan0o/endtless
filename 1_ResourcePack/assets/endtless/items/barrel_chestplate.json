@@ -11,13 +11,13 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "cosmetics/barrel_thirdperson"
+          "model": "minecraft:cosmetics/barrel_thirdperson"
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "cosmetics/barrel"
+      "model": "minecraft:cosmetics/barrel"
     }
   }
 }

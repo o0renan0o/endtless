@@ -4,11 +4,11 @@
     "property": "minecraft:using_item",
     "on_true": {
       "type": "minecraft:model",
-      "model": "toffy/zelda/toffy_hylian_shield_blocking"
+      "model": "minecraft:toffy/zelda/toffy_hylian_shield_blocking"
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "toffy/zelda/toffy_hylian_shield"
+      "model": "minecraft:toffy/zelda/toffy_hylian_shield"
     }
   }
 }

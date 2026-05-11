@@ -1,6 +1,6 @@
 # Endtless - Setup de Itens Customizados (sem plugin pago)
 
-Este pacote permite usar modelos 3D premium no seu servidor 1.21.4+
+Este pacote permite usar modelos 3D premium no seu servidor **Minecraft 1.21.4 - 1.21.11+**
 sem precisar de Oraxen / Nexo / ItemsAdder.
 
 **Colecoes incluidas (5 packs, 39+ itens):**

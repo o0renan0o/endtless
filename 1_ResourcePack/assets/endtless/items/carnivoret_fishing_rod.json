@@ -4,11 +4,11 @@
     "property": "minecraft:fishing_rod/cast",
     "on_true": {
       "type": "minecraft:model",
-      "model": "elitecreatures/carnivoret_weapon_set/fishing_rod_cast"
+      "model": "minecraft:elitecreatures/carnivoret_weapon_set/fishing_rod_cast"
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "elitecreatures/carnivoret_weapon_set/fishing_rod"
+      "model": "minecraft:elitecreatures/carnivoret_weapon_set/fishing_rod"
     }
   }
 }

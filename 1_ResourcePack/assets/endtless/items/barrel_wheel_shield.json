@@ -4,11 +4,11 @@
     "property": "minecraft:using_item",
     "on_true": {
       "type": "minecraft:model",
-      "model": "cosmetics/wooden_wheel_blocking"
+      "model": "minecraft:cosmetics/wooden_wheel_blocking"
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "cosmetics/wooden_wheel"
+      "model": "minecraft:cosmetics/wooden_wheel"
     }
   }
 }

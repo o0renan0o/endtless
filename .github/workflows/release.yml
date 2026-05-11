@@ -15,21 +15,30 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Compute SHA1 of EndtlessPack.zip
+        id: sha1
+        run: |
+          SHA=$(sha1sum EndtlessPack.zip | awk '{print $1}')
+          echo "sha=$SHA" >> $GITHUB_OUTPUT
+          echo "SHA1=$SHA"
+
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
           name: EndtlessPack ${{ github.ref_name }}
           body: |
-            Resource pack + datapack vanilla 1.21.4+ com 45 itens customizados.
+            Resource pack + datapack vanilla compativel com Minecraft 1.21.4 - 1.21.11+ (Paper).
 
-            **SHA1 do EndtlessPack.zip:** `665fd5a599312ee90b8f25b7ce87bec3a11e3f4f`
+            45 itens customizados de 6 colecoes premium, sem precisar de plugin pago.
+
+            **SHA1 do EndtlessPack.zip:** `${{ steps.sha1.outputs.sha }}`
 
             ## Como usar
 
             **Resource Pack** (no server.properties do servidor):
             ```properties
             resource-pack=https://github.com/o0renan0o/endtless/releases/download/${{ github.ref_name }}/EndtlessPack.zip
-            resource-pack-sha1=665fd5a599312ee90b8f25b7ce87bec3a11e3f4f
+            resource-pack-sha1=${{ steps.sha1.outputs.sha }}
             require-resource-pack=true
             resource-pack-prompt=Aceite o pack para ver os itens exclusivos do Endtless!
             ```

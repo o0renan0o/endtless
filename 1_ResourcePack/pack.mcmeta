@@ -1,6 +1,7 @@
 {
   "pack": {
-    "pack_format": 46,
-    "description": "§cEndtless §7- What Collection (Polygony)"
+    "pack_format": 75,
+    "supported_formats": [46, 99],
+    "description": "§cEndtless §7- 45 itens customizados (6 packs)"
   }
 }

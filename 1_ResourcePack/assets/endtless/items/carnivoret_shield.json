@@ -4,11 +4,11 @@
     "property": "minecraft:using_item",
     "on_true": {
       "type": "minecraft:model",
-      "model": "elitecreatures/carnivoret_weapon_set/shield_blocking"
+      "model": "minecraft:elitecreatures/carnivoret_weapon_set/shield_blocking"
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "elitecreatures/carnivoret_weapon_set/shield"
+      "model": "minecraft:elitecreatures/carnivoret_weapon_set/shield"
     }
   }
 }
