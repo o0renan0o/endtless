@@ -1,7 +1,1 @@
-{
-  "pack": {
-    "description": "Endtless - 6 packs com receitas, loot tables e shop GUI",
-    "min_format": 61,
-    "max_format": 100
-  }
-}
+{"pack": {"description": "Endtless - 6 packs com receitas, loot tables e shop GUI", "pack_format": 61, "supported_formats": [61, 99]}}
